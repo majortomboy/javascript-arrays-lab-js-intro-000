@@ -4,7 +4,7 @@ var otherCat2 = "Broom"
 
 function destructivelyAppendKitten(kittens, otherCat1){
   kittens.push(otherCat1);
-  return kittens;
+  return kittens
 }
 
 function destructivelyPrependKitten(kittens, otherCat2){
