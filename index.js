@@ -3,7 +3,7 @@ var otherCat1 = "Arnold";
 var otherCat2 = "Broom";
 
 function destructivelyAppendKitten(kittens, otherCat1){
-  kittens.push(otherCat1);
+  kittens.push(kittens);
   return kittens
 }
 
